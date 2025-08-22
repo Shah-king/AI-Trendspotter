@@ -4,7 +4,7 @@ BTT Google 1D project — YouTube Trending Data Analysis
 This repo analyzes YouTube trending datasets from multiple countries. Each dataset is stored separately, and there are per-country notebooks for analysis.
 
 ## Repository structure
-.
+.<br/>
 ├── datasets/ # raw CSVs per country<br/>
 │ ├── BR_youtube_trending_data.csv<br/>
 │ ├── CA_youtube_trending_data.csv<br/>
