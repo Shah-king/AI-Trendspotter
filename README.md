@@ -61,7 +61,7 @@ sys.path.append(os.path.abspath(".."))   # allow importing ../utils
 Naming convention
 Datasets: <COUNTRY>_youtube_trending_data.csv (ISO Alpha-2 code)
 Notebooks: <COUNTRY>_dataset.ipynb
-Each notebook is intended to analyze the dataset with the same country code (e.g., US_dataset.ipynb ↔ US_youtube_trending_data.csv).
-Notes
-Keep shared functions in utils/ to avoid repeating code across notebooks.
-The .venv/ directory is local to your machine and is not required for others; they can create their own environment.
+Each notebook is intended to analyze the dataset with the same country code (e.g., US_dataset.ipynb ↔ US_youtube_trending_data.csv).<br/>
+Notes<br/>
+Keep shared functions in utils/ to avoid repeating code across notebooks.<br/>
+The .venv/ directory is local to your machine and is not required for others; they can create their own environment.<br/>
