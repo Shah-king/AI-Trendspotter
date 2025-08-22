@@ -6,33 +6,33 @@ This repo analyzes YouTube trending datasets from multiple countries. Each datas
 ## Repository structure
 .
 ├── datasets/ # raw CSVs per country<br/>
-│ ├── BR_youtube_trending_data.csv
-│ ├── CA_youtube_trending_data.csv
-│ ├── DE_youtube_trending_data.csv
-│ ├── FR_youtube_trending_data.csv
-│ ├── GB_youtube_trending_data.csv
-│ ├── IN_youtube_trending_data.csv
-│ ├── JP_youtube_trending_data.csv
-│ ├── KR_youtube_trending_data.csv
-│ ├── MX_youtube_trending_data.csv
-│ ├── RU_youtube_trending_data.csv
-│ └── US_youtube_trending_data.csv
-├── notebooks/ # per-country Jupyter notebooks
-│ ├── BR_dataset.ipynb
-│ ├── CA_dataset.ipynb
-│ ├── DE_dataset.ipynb
-│ ├── FR_dataset.ipynb
-│ ├── GB_dataset.ipynb
-│ ├── IN_dataset.ipynb
-│ ├── JP_dataset.ipynb
-│ ├── KR_dataset.ipynb
-│ ├── MX_dataset.ipynb
-│ ├── RU_dataset.ipynb
-│ └── US_dataset.ipynb
-├── utils/ # shared helper code (your modules go here)
-├── .venv/ # local virtual environment (optional)
-├── .gitattributes
-└── README.md
+│ ├── BR_youtube_trending_data.csv<br/>
+│ ├── CA_youtube_trending_data.csv<br/>
+│ ├── DE_youtube_trending_data.csv<br/>
+│ ├── FR_youtube_trending_data.csv<br/>
+│ ├── GB_youtube_trending_data.csv<br/>
+│ ├── IN_youtube_trending_data.csv<br/>
+│ ├── JP_youtube_trending_data.csv<br/>
+│ ├── KR_youtube_trending_data.csv<br/>
+│ ├── MX_youtube_trending_data.csv<br/>
+│ ├── RU_youtube_trending_data.csv<br/>
+│ └── US_youtube_trending_data.csv<br/>
+├── notebooks/ # per-country Jupyter notebooks<br/>
+│ ├── BR_dataset.ipynb<br/>
+│ ├── CA_dataset.ipynb<br/>
+│ ├── DE_dataset.ipynb<br/>
+│ ├── FR_dataset.ipynb<br/>
+│ ├── GB_dataset.ipynb<br/>
+│ ├── IN_dataset.ipynb<br/>
+│ ├── JP_dataset.ipynb<br/>
+│ ├── KR_dataset.ipynb<br/>
+│ ├── MX_dataset.ipynb<br/>
+│ ├── RU_dataset.ipynb<br/>
+│ └── US_dataset.ipynb<br/>
+├── utils/ # shared helper code (your modules go here)<br/>
+├── .venv/ # local virtual environment (optional)<br/>
+├── .gitattributes<br/>
+└── README.md<br/>
 
 ## Usage
 
