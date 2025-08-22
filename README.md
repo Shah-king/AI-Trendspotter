@@ -5,7 +5,7 @@ This repo analyzes YouTube trending datasets from multiple countries. Each datas
 
 ## Repository structure
 .
-├── datasets/ # raw CSVs per country
+├── datasets/ # raw CSVs per country<br/>
 │ ├── BR_youtube_trending_data.csv
 │ ├── CA_youtube_trending_data.csv
 │ ├── DE_youtube_trending_data.csv
