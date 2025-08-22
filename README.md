@@ -1,48 +1,67 @@
 # Google1D
+BTT Google 1D project — YouTube Trending Data Analysis
 
-BTT Google 1D project
+This repo analyzes YouTube trending datasets from multiple countries. Each dataset is stored separately, and there are per-country notebooks for analysis.
 
-YouTube Trending Data Analysis
-
-This project analyzes YouTube trending datasets from multiple countries. Each dataset is stored separately, and there are per-country notebooks for analysis.
-
-Repository Structure
+## Repository structure
 .
-├── datasets/                 # Raw CSV files for each country
-│   ├── BR_youtube_trending_data.csv
-│   ├── CA_youtube_trending_data.csv
-│   └── ...
-├── notebooks/                # Jupyter notebooks for analysis (per country)
-│   ├── BR_dataset.ipynb
-│   ├── CA_dataset.ipynb
-│   └── ...
-├── utils/                    # Shared helper code (e.g., loading, cleaning)
-├── .venv/                    # Local virtual environment (optional)
+├── datasets/ # raw CSVs per country
+│ ├── BR_youtube_trending_data.csv
+│ ├── CA_youtube_trending_data.csv
+│ ├── DE_youtube_trending_data.csv
+│ ├── FR_youtube_trending_data.csv
+│ ├── GB_youtube_trending_data.csv
+│ ├── IN_youtube_trending_data.csv
+│ ├── JP_youtube_trending_data.csv
+│ ├── KR_youtube_trending_data.csv
+│ ├── MX_youtube_trending_data.csv
+│ ├── RU_youtube_trending_data.csv
+│ └── US_youtube_trending_data.csv
+├── notebooks/ # per-country Jupyter notebooks
+│ ├── BR_dataset.ipynb
+│ ├── CA_dataset.ipynb
+│ ├── DE_dataset.ipynb
+│ ├── FR_dataset.ipynb
+│ ├── GB_dataset.ipynb
+│ ├── IN_dataset.ipynb
+│ ├── JP_dataset.ipynb
+│ ├── KR_dataset.ipynb
+│ ├── MX_dataset.ipynb
+│ ├── RU_dataset.ipynb
+│ └── US_dataset.ipynb
+├── utils/ # shared helper code (your modules go here)
+├── .venv/ # local virtual environment (optional)
 ├── .gitattributes
 └── README.md
 
-Usage
+## Usage
 
-Set up environment
+### 1) (Optional) Create/activate a virtual environment
+```bash
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt   # if you have one
-Open a notebook
-Each notebook in notebooks/ corresponds to one country’s dataset in datasets/.
-Example:
-US_dataset.ipynb → works with US_youtube_trending_data.csv
-RU_dataset.ipynb → works with RU_youtube_trending_data.csv
+# macOS/Linux
+source .venv/bin/activate
+# Windows
+# .venv\Scripts\activate
+2) Open a notebook and load the matching CSV
+Each notebook in notebooks/ corresponds to a dataset in datasets/ with the same country code.
+Example (from notebooks/US_dataset.ipynb):
 
-Using utils/
+import pandas as pd
 
-Common functions for loading data, cleaning, or plotting can go inside utils/ and be imported into notebooks.
-Example (if you add io.py or cleaning.py):
-from utils import io, cleaning
-df = io.load_csv("datasets/US_youtube_trending_data.csv")
-df = cleaning.clean_titles(df)
+df = pd.read_csv("../datasets/US_youtube_trending_data.csv")
+df.head()
+3) Use code from utils/ in notebooks (if you add modules there)
+import sys, os
+sys.path.append(os.path.abspath(".."))   # allow importing ../utils
 
+# Example:
+# from utils import cleaning
+# df = cleaning.basic_clean(df)
+Naming convention
+Datasets: <COUNTRY>_youtube_trending_data.csv (ISO Alpha-2 code)
+Notebooks: <COUNTRY>_dataset.ipynb
+Each notebook is intended to analyze the dataset with the same country code (e.g., US_dataset.ipynb ↔ US_youtube_trending_data.csv).
 Notes
-
-Each dataset is named with the country code (ISO Alpha-2) for consistency.
-Each notebook matches a dataset, making it easy to work country by country.
-The utils/ folder is for shared functions so code doesn’t get repeated in every notebook.
+Keep shared functions in utils/ to avoid repeating code across notebooks.
+The .venv/ directory is local to your machine and is not required for others; they can create their own environment.
