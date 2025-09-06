@@ -15,7 +15,7 @@ A machine learning project developed for the Google AI Studio Challenge, aiming 
 | Name | GitHub Handle | Contributions |
 | :--- | :--- | :--- |
 | Brenda | [BrendaG04](https://github.com/BrendaG04) | ... |
-| Shyla | [teammate1-handle](https://github.com/shylabud) | ... |
+| Shyla | [shylabud](https://github.com/shylabud) | ... |
 | Teammate 3 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 4 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 5 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
