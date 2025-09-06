@@ -16,7 +16,7 @@ A machine learning project developed for the Google AI Studio Challenge, aiming 
 | :--- | :--- | :--- |
 | Brenda | [BrendaG04](https://github.com/BrendaG04) | ... |
 | Shyla | [shylabud](https://github.com/shylabud) | ... |
-| Teammate 3 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
+| Shahriar | [Shahking](https://github.com/Shah-king) | ... |
 | Teammate 4 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 5 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 6 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
