@@ -25,18 +25,14 @@ A machine learning project developed for the Google AI Studio Challenge, aiming 
 | **Challenge Advisor:** Woon Ket Wong | \- | Project guidance & support |
 
 ## Project Highlights
-
-*   **Comprehensive Data Pipeline:** Processed a large-scale dataset of YouTube trending videos, handling missing values, outliers, and complex datetime features.
-*   **Advanced Feature Engineering:** Derived powerful predictive features such as `like_to_dislike_ratio`, `engagement_rate` (likes/views), `days_to_trend`, and `title_sentiment`.
-*   **Robust Model Comparison:** Systematically evaluated and compared multiple model families, from interpretable logistic regression to state-of-the-art gradient boosting and neural networks.
-*   **Actionable Insights:** Delivered clear, business-oriented findings on what factors most significantly influence a video's path to trending, supporting both algorithmic and creator-focused goals.
+....
 
 
 ## Results & Key Findings
-
+...
 
 ### Feature Importance
-
+.....
 
 **Key Business Insights:**
 
