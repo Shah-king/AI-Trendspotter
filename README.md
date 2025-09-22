@@ -18,7 +18,7 @@ A machine learning project developed for the Google AI Studio Challenge, aiming 
 | Shyla | [shylabud](https://github.com/shylabud) | ... |
 | Shahriar | [Shahking](https://github.com/Shah-king) | ... |
 | Kristel | [kristel777](https://github.com/kristel777) | ... |
-| Teammate 5 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
+| Miles | [Miles1744](https://github.com/miles1744) | ... |
 | Teammate 6 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 7 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 
