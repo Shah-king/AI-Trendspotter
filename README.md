@@ -22,7 +22,7 @@ A machine learning project developed for the Google AI Studio Challenge, aiming 
 | Teammate 6 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 | Teammate 7 Name | [teammate2-handle](https://github.com/teammate2-handle) | ... |
 
-| **Challenge Advisor:** Woon Ket Wong | \- | Project guidance & support |
+| **Challenge Advisor:** Woon Ket Wong |  | Haziel Andrade |
 
 ## Project Highlights
 ....
