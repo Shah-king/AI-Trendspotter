@@ -1,4 +1,5 @@
 datasets/*.csv
+data-local/*.csv
 
 
 data-local/
